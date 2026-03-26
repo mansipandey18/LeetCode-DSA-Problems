@@ -1,4 +1,4 @@
-# <u>6. Zigzag Conversion</u>
+# <u>06. Zigzag Conversion</u>
 
 ----
 
