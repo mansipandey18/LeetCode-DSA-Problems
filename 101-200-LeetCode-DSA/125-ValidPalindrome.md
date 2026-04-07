@@ -26,7 +26,7 @@ https://leetcode.com/problems/valid-palindrome/
 
 * 🔹 Continue until pointers cross.
 
-* 🔹 If no mismatch is found, the string is a valid palindrome.e.
+* 🔹 If no mismatch is found, the string is a valid palindrome.
 
 ---
 
