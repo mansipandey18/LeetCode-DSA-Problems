@@ -1,4 +1,4 @@
-    # <u>3661. Maximum Walls Destroyed by Robots</u>
+# <u>3661. Maximum Walls Destroyed by Robots</u>
 
 ----
 
