@@ -27,7 +27,7 @@ https://leetcode.com/problems/find-the-difference-of-two-arrays/
 **O(m + n)**
 
 * Converting arrays to sets → `O(n + m)`
-Checking differences → `O(n + m)`
+* Checking differences → `O(n + m)`
 
 ---
 
