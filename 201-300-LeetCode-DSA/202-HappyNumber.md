@@ -1,4 +1,4 @@
-`# <u>202. Happy Number</u>
+# <u>202. Happy Number</u>
 
 ----
 
