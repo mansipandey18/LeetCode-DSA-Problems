@@ -3,7 +3,7 @@
 ----
 
 ## 🔗 Problem Link
-https://leetcode.com/problems/robot-collisions/
+https://leetcode.com/problems/sum-of-distances/
 
 ---
 
