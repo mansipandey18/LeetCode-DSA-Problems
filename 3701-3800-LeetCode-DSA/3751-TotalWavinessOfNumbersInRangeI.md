@@ -8,22 +8,22 @@ https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/
 ---
 
 ## 🧠 Intuition:
-* 🔹 We need to find the minimum distance between a number and its reverse (mirror).
+* 🔹 The problem asks to compute **total “waviness”** for all numbers in the range `[num1, num2]`.
 
-* 🔹 Traverse the array and use a HashMap to store values we’ve seen.
+* 🔹 For each number `x`, we calculate its individual waviness using function `f(x)`.
 
-* 🔹 But instead of storing the number itself, we store its reverse as key with its index.
+* 🔹 In f(x):
+    - First, extract all digits of the number and store them in reverse order.
+    - If the number has fewer than 3 digits, it cannot form a peak or valley → waviness is `0`.
 
-* 🔹 Why? Because when we see a number x, we want to quickly check if its reverse already appeared before.
+* 🔹 For every middle digit (excluding first and last):
+    - Check if it is a **peak** (greater than both neighbors) or a **valley** (smaller than both neighbors).
 
-* 🔹 For each element:
-    - If current number exists in map → it means we found its mirror earlier
-    - Compute distance = currentIndex - previousIndex
-    - Update minimum answer
+* 🔹 Count all such positions to get waviness of that number.
 
-* 🔹 Then store reverse of current number in the map for future matches.
+* 🔹 Sum the waviness of every number in the given range to get the final answer.
 
-* 🔹 If no such pair exists → return -1.
+* 🔹 Essentially, we are doing a **brute-force per-number digit analysis** over the range.
 
 ---
 
