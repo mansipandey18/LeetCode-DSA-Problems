@@ -12,7 +12,7 @@ https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/
 
 * 🔹 For each number `x`, we calculate its individual waviness using function `f(x)`.
 
-* 🔹 In f(x):
+* 🔹 In `f(x)`:
     - First, extract all digits of the number and store them in reverse order.
     - If the number has fewer than 3 digits, it cannot form a peak or valley → waviness is `0`.
 
